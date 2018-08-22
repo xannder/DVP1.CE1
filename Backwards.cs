@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace DVP1.CE1
         //NAME: Alexander Rodriguez
         //DATE: 1808
         //COURSE: Project & Porfolio 1
-        //SYNOPSIS:
+        //SYNOPSIS: Ask the user to enter a sentence and then return the current sentence and the reverse sentence
 
         public static void ChBackwards()
         {
@@ -28,11 +28,22 @@ namespace DVP1.CE1
             Console.WriteLine("********************************************");
             Console.WriteLine("");
 
-            
+
+            //Ask user to enter a sentence
             Console.WriteLine("Please enter a sentece containing at least 6 words:");
 
             //Capture user sentence
             userSentence = Console.ReadLine();
+
+            //Validate the user sentece is not null
+            while (string.IsNullOrWhiteSpace(userSentence))
+            {
+                //Notify user about the null value
+                Console.WriteLine("Your entry is null! Please enter a sentece containing at least 6 words:");
+
+                //Capture the user sentence
+                userSentence = Console.ReadLine();
+            }
 
             //Print out the user sentence
             Console.WriteLine("");
@@ -58,15 +69,6 @@ namespace DVP1.CE1
             Console.ReadKey();
             Console.Clear();
             Menu.ChMenu();
-
-           
-
         }
-
-
-
-
-
-
     }
 }
