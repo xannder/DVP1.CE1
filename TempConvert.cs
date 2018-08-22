@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +36,7 @@ namespace DVP1.CE1
             Console.WriteLine("Welcome to Temperature Converted! Would you like to...");
             Console.WriteLine("");
             Console.WriteLine("1. Convert temperature form Fahrenheit to Celsius");
-            Console.WriteLine("2. Convert temperaturee form Clsius to Fahrenheit");
+            Console.WriteLine("2. Convert temperaturee form Celsius to Fahrenheit");
 
             //Capture user choice
             strUserCh = Console.ReadLine();
