@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace DVP1.CE1
         //NAME: Alexander Rodriguez
         //DATE: 1808
         //COURSE: Project & Porfolio 1
-        //SYNOPSIS: Identify the largest fish based on the color selection made by the user
+        //SYNOPSIS: Identify the biggest fish based on the color selection made by the user
 
         public static void ChBigBlueFish()
         {
@@ -86,7 +86,7 @@ namespace DVP1.CE1
                     break;
             }
 
-            //Determine the bigest fish according to the user's color selection
+            //Determine the biggest fish according to the user's color selection
             for (int c = 0; c < colors.Length; c++)
             {
                 if (colors[c] == fishColor)
