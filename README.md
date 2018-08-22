@@ -15,7 +15,6 @@ Note: Menu is calling from Program.cs
 
 I need to validate the entries for SwapName and Backwards. Also, I need to pass the codes of the remaining programs: (Age Convert, Temp Convert, and Big Blue Fish). Finally, validate the executions.
 
+I finish my draft in Notepad and I passed the rest of the codes to Visual Studio (Age Convert, Temp Covert and Big Blue Fish). I completed the validation and verification for all codes. Now, all programs are running and showing the results.
 
-GitHub:
-
-Continue working with my repository, order elements, upload “README” document and work with the format.
+I upload the rest of the codes to my repository and completed comments in my previous codes.
